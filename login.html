@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+p {
+    font-size: 200%;
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+</style>
+</head>
+<body>
+<font color="black">
+<h3>Welcome to our Restaurant.</h3>
+</font>
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+  <button class="tablinks" onclick="openCity(event, 'Menu')">Menu</button>
+  <button class="tablinks" onclick="openCity(event, 'Your order')">Your order</button>
+</div>
+
+<div id="Home" class="tabcontent">
+<body background="3.jpg">
+  <h3>Home</h3>
+
+  <p><font color="white">welcome to our Restaurant. Aroma is a restaurant specializing agency in our college. We have a staff of chefs with vast experience and exquisite taste in the preparation of our hygenic dishes. We use the best raw materials and the best service to make your experience in our restaurant unique.
+
+For introductory we offer special dishes. If you get interested in our menu, you can visit our restaurant, our website where you will find a brief overview of each dish. You can make reservations through our website or by contacting our call center.
+</font>
+</p>
+</div>
+
+<div id="Menu" class="tabcontent">
+  <h3>Menu</h3>
+  <style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+<font color="black">
+
+<table>
+  <tr>
+    <th>Breakfast</th>
+    <th>Price</th>
+    
+  </tr>
+  <tr>
+    <td>Idly(2)</td>
+    <td>20</td>
+    
+  </tr>
+  <tr>
+    <td>Idly with vadai</td>
+    <td>30</td>
+    
+  </tr>
+  <tr>
+    <td>Plain Roast</td>
+    <td>30</td>
+    
+  </tr>
+  <tr>
+    <td>Ghee Roast</td>
+    <td>40</td>
+    
+  </tr>
+  <tr>
+    <td>Masala Dosa</td>
+    <td>40</td>
+    
+  </tr>
+  <tr>
+    <td>Puri Masala</td>
+    <td>35</td>
+    
+  </tr>
+</table>
+
+</body>
+<p> LUNCH </p>
+<head>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>Lunch</th>
+    <th>Price</th>
+    
+  </tr>
+  <tr>
+    <td>Parotta(2)</td>
+    <td>40</td>
+    
+  </tr>
+  <tr>
+    <td>Chapathi</td>
+    <td>30</td>
+    
+  </tr>
+  <tr>
+    <td>Meals</td>
+    <td>60</td>
+    
+  </tr>
+  <tr>
+    <td>Veg Biryani</td>
+    <td>40</td>
+    
+  </tr>
+  <tr>
+    <td>Egg Biryani</td>
+    <td>50</td>
+    
+  </tr>
+  <tr>
+    <td>Chicken Biryani</td>
+    <td>70</td>
+    
+  </tr>
+</table>
+
+</body>
+<p> SNACKS AND DESSERTS </p>
+
+<head>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>Snacks and Desserts</th>
+    <th>Price</th>
+    
+  </tr>
+  <tr>
+    <td>Rose Milk</td>
+    <td>10</td>
+    
+  </tr>
+  <tr>
+    <td>Badam Milk</td>
+    <td>20</td>
+    
+  </tr>
+  <tr>
+    <td>Softy</td>
+    <td>20</td>
+    
+  </tr>
+  <tr>
+    <td>Veg Puff</td>
+    <td>15</td>
+    
+  </tr>
+  <tr>
+    <td>Egg puff</td>
+    <td>18</td>
+    
+  </tr>
+  <tr>
+    <td>Chicken Puff</td>
+    <td>20</td>
+    
+  </tr>
+  <tr>
+    <td>Pasteries</td>
+    <td>20</td>
+    
+  </tr>
+  <tr>
+    <td>Mini coldrinks</td>
+    <td>12</td>
+    
+  </tr>
+</table>
+</font>
+</body> 
+</div>
+
+<div id="Your order" class="tabcontent">
+  <h3>Your order</h3>
+  <p>choose your food</p>
+<body>
+<font color="white">
+<form action="">
+
+<p>
+Please choose a time:<br>
+your order will be get prepared after the 10 minutes .
+</p>
+
+<form >
+  Select a time:
+  <input type="time" name="usr_time">
+  
+</form>
+<input type="checkbox" name="Breakfast" value="Brkf">Idly<br>
+<input type="checkbox" name="Breakfast" value="lun">Idly with vadai<br>
+<input type="checkbox" name="Breakfast" value="Brkf">plain roast<br>
+<input type="checkbox" name="Breakfast" value="lun">ghee roast<br>
+<input type="checkbox" name="Breakfast" value="Brkf">masala dosa<br>
+<input type="checkbox" name="Breakfast" value="lun">puri masala<br>
+<input type="checkbox" name="Lunch" value="Brkf">poratta<br>
+<input type="checkbox" name="Lunch" value="lun">chapathi<br>
+<input type="checkbox" name="Lunch" value="Brkf">meals<br>
+<input type="checkbox" name="Lunch" value="lun">veg biryani<br>
+<input type="checkbox" name="Lunch" value="Brkf">egg biryani<br>
+<input type="checkbox" name="Lunch" value="lun">chicken biryani<br>
+<input type="checkbox" name="Snacks and Desserts" value="Brkf">Rose milk<br>
+<input type="checkbox" name="Snacks and Desserts" value="lun">Badam milk<br>
+<input type="checkbox" name="Snacks and Desserts" value="Brkf">softy<br>
+<input type="checkbox" name="Snacks and Desserts" value="lun">veg puff<br>
+<input type="checkbox" name="Snacks and Desserts" value="Brkf">egg puff<br>
+<input type="checkbox" name="Snacks and Desserts" value="lun">chicken puff<br>
+<input type="checkbox" name="Snacks and Desserts" value="Brkf">pasteries<br>
+<input type="checkbox" name="Snacks and Desserts" value="lun">mini coldrinks
+</form>
+</font>
+<form action="food.html">
+    <input type="submit" value="submit" />
+</form>
+
+
+</body>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+     
+</body>
+</html> 
+
